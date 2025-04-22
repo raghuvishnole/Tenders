@@ -1,1 +1,1 @@
-export const __userapiurl = "http://localhost:3001/user/";
+export const __userapiurl = "https://tenders-5pki.onrender.com/user/";
