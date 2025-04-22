@@ -23,5 +23,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/user", UserRouter);
 app.use("/category", CategoryRouter);
 
+app.get("/", (req, res) => {
+  res.send("Server is working");
+});
+
 app.listen(process.env.PORT || 3021);
 console.log("server invoked to link http://localhost:3001");
